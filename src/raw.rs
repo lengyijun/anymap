@@ -2,6 +2,7 @@
 //!
 //! All relevant details are in the `RawMap` struct.
 
+use std::prelude::v1::*;
 use std::any::TypeId;
 use std::borrow::Borrow;
 use std::collections::hash_map::{self, HashMap};

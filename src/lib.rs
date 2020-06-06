@@ -2,6 +2,10 @@
 
 #![warn(missing_docs, unused_results)]
 
+#![no_std]
+use std::prelude::v1::*;
+extern crate sgx_tstd as std;
+
 use std::any::TypeId;
 use std::marker::PhantomData;
 

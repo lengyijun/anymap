@@ -3,6 +3,7 @@
 //! This stuff is all based on `std::any`, but goes a little further, with `CloneAny` being a
 //! cloneable `Any` and with the `Send` and `Sync` bounds possible on both `Any` and `CloneAny`.
 
+use std::prelude::v1::*;
 use std::fmt;
 use std::any::Any as StdAny;
 
